@@ -3,4 +3,5 @@ numpy
 librosa
 spleeter
 scipy
+gunicorn
 werkzeug 
