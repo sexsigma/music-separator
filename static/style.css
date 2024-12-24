@@ -1,0 +1,72 @@
+.upload-area {
+    border: 2px dashed #ccc;
+    border-radius: 8px;
+    background-color: #f8f9fa;
+    transition: all 0.3s ease;
+}
+
+.upload-area:hover {
+    border-color: #007bff;
+    background-color: #f1f8ff;
+}
+
+.upload-area.dragover {
+    border-color: #28a745;
+    background-color: #e8f5e9;
+}
+
+.card {
+    border: none;
+    transition: transform 0.2s;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+.card-header {
+    border-radius: 10px 10px 0 0 !important;
+}
+
+.progress {
+    height: 20px;
+    border-radius: 10px;
+}
+
+.btn {
+    transition: all 0.3s ease;
+}
+
+.btn:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+}
+
+audio {
+    border-radius: 20px;
+    background-color: #f8f9fa;
+}
+
+audio::-webkit-media-controls-panel {
+    background-color: #f8f9fa;
+}
+
+.fas {
+    color: #007bff;
+}
+
+@keyframes pulse {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.05);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+
+.processing {
+    animation: pulse 1.5s infinite;
+} 

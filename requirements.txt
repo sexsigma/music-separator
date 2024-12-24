@@ -1,0 +1,6 @@
+flask
+numpy
+librosa
+spleeter
+scipy
+werkzeug 
